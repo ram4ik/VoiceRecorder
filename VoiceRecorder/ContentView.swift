@@ -45,6 +45,7 @@ struct ContentView: View {
                     }
                 }
             }.navigationBarTitle("Voice recorder")
+            .navigationBarItems(trailing: EditButton())
         }
     }
 }
